@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>primer avances</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/H.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/SC_HUAWEI.css"     rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.1.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+        .container .a {
+            margin-top: 20px;
+            color: #64AF8B;
+        }
+        .container .a p {
+            color: #2C492F;
+        }
+        .single-content {
+            position: relative;
+            transition: .3s;
+            box-shadow: 10px 20px 20px rgba(0, 0, 0, 0, 0.8);
+        }
+        .single-content .text-content,
+        .single-content:after {
+            position: absolute;
+            left: 20px;
+            right: 20px;
+        }
+        .single-content:after {
+            content: '';
+            display: block;
+            background: rgb(169, 86, 86);
+            top: 20px;
+            bottom: 20px;
+            opacity: 0;
+            transform: rotate3d(-1, 1, 0, 100deg);
+            transition: .4s;
+        }
+        .single-content:hover:after {
+            opacity: .9;
+            transform: rotate3d(0, 0, 0, 0deg);
+        }
+        .single-content img {
+            width: 100%;
+            height: 250px;
+        }
+        .text-content {
+            top: 45%;
+            opacity: 0;
+            z-index: 1;
+            transform: translate(10%, -30%);
+            transition: .3s;
+            text-align: center;
+            color: #fff;
+        }
+        .text-content h4 {
+            font-family: serif;
+        }
+        .single-content:hover .text-content {
+            opacity: 1;
+            transform: translate(0, -50%);
+            transition-delay: .3s;
+        }
+
+
+
+        
+  
+</style>
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul >
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Informacion</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Avances</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Herramientas</span></a></li>
+       <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Imagenes</span></a></li>      
+        
+      </ul>
+    </nav><!-- .nav-menu -->
+
+
+  </header><!-- End Header -->
+
+
+  <!-- incio botones de gestor-->
+
+  <div class="col-2">
+    <div class="navigation">
+        <ul>
+            <li class="list">
+                <a href="index.html">
+                <span class="icon">
+                <!--  <ion-icon name="home-outline"></ion-icon> -->  
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </span>
+                    <span class="title">Principal</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="index_SC_AWS.html">
+                <span class="icon">
+                <!--  <ion-icon name="home-outline"></ion-icon> -->  
+                    <ion-icon name="people-circle-outline"></ion-icon>
+                </span>
+                    <span class="title">Grupo SC AWS</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="index_SC_AZURE.html">
+                <span class="icon">
+                    <!-- <ion-icon name="person-outline"></ion-icon>-->  
+                    <ion-icon name="people-circle-outline"></ion-icon>
+                </span>
+                    <span class="title">Grupo SC AZURE</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="index_SC_GOOGLE.html">
+                <span class="icon">
+                <!--  <ion-icon name="mail-unread-outline"></ion-icon>-->  
+                    <ion-icon name="people-circle-outline"></ion-icon>
+                </span>
+                    <span class="title">Grupo SC GOOGLE</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="index_SC_HUAWEI.html">
+                <span class="icon">
+                <!--  <ion-icon name="settings-outline"></ion-icon>-->  
+                    <ion-icon name="people-circle-outline"></ion-icon>      
+                </span>
+                    <span class="title">Grupo SC HUAWEI</span>
+                </a>
+            </li>
+            <li class="list active">
+                <a href="index_SC_IBM.html">
+                <span class="icon">
+                    <!--  <ion-icon name="settings-outline"></ion-icon>-->  
+                    <ion-icon name="people-circle-outline"></ion-icon>   
+                </span>
+                    <span class="title">Grupo SC IBM</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="index_SCA_ANCHOR.html">
+                <span class="icon">
+                <ion-icon name="people-circle-outline"></ion-icon>
+                </span>
+                    <span class="title">Grupo SCA ANCHOR</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="index_BLOCKCHAIN.html">
+                <span class="icon">
+                <ion-icon name="people-circle-outline"></ion-icon>
+                </span>
+                    <span class="title">Grupo BLOCKCHAIN</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="index_QUANTUM_COMPUTING.html">
+                <span class="icon">
+                <ion-icon name="people-circle-outline"></ion-icon>
+                </span>
+                    <span class="title">Grupo QUANTUM COMPUTING</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="index_QA.html">
+                <span class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+                </span>
+                    <span class="title">Grupo QA</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="index_GESTION.html">
+                <span class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+                </span>
+                    <span class="title">Grupo GESTIÓN</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+  <!--fin botones de gestor-->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>SC Huawei Cloud</h1>
+      <p>Proyecto <span class="typed" data-typed-items="Smart Campus, Huawei Cloud"></span></p>
+      
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Informacion del proyecto</h2>
+            <p>
+            en esta seccion se muestra informacion sobre el proyecto
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-5">
+              <img src="imagens/SC_HUAWEI/SCH.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-7 pt-4 pt-lg-0 content">
+              <div class="row">
+                <div class="col-lg-8">
+                    <p> Visión
+                    Ofrecer una atención en las áreas de mesa de parte y tesoreria innovadora y efectiva a los usuarios de la facultad de la universidad de San Martin de Porres para contribuir al servicio orientado a las necesidades.
+                    </p>
+                    <p> Misión:
+                    Implementar la mejora en los procesos administrativos de mesa de partes y tesoreria de la facultad de la universidad de San Martin de Porres en la facultad de ingeniería y arquitectura
+                   </p>
+                
+                </div>
+                <br>
+                
+              </div>
+              
+            </div>
+          </div>
+
+        <div class="section-title">
+          <h2>Informacion de integrantes</h2>
+          <p>
+            en esta seccion se muestra informacion sobre los integrantes del equipo huawei
+          </p>
+        </div>
+        <br>
+        
+        <!--card sobre integrantes del equipo huawei -->
+  
+    <div class="container a text-center pb-3">
+       
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="row">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                            
+                                <div class="single-content">
+                                    <img src="imagens/SC_HUAWEI/jesus.jpeg"  alt="" width="50" height="60">
+                                    <div class="text-content">
+                                        <h2>jesus</h2>
+                                        <p>miembro del equipo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-content">
+                                    <img src="imagens/SC_HUAWEI/Jose.jpeg" width="100" height="100"alt="">
+                                    <div class="text-content">
+                                        <h2>jose</h2>
+                                       <p>lider del equipo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-content">
+                                    <img src="imagens/SC_HUAWEI/Bryan.jpg" alt="">
+                                    <div class="text-content">
+                                        <h2>bryan</h2>
+                                        <p>miembro del equipo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-content">
+                                    <img src="imagens/SC_HUAWEI/Deyvid.jpeg" alt="">
+                                    <div class="text-content">
+                                        <h2>deyvid</h2>
+                                        <p>miembro del equipo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-content">
+                                    <img src="imagens/SC_HUAWEI/sofi2.jpeg" alt="">
+                                    <div class="text-content">
+                                        <h2>sofia</h2>
+                                        <p>QA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-content">
+                                    <img src="imagens/SC_HUAWEI/gianina.jpeg" alt="">
+                                    <div class="text-content">
+                                        <h2>giannina</h2>
+                                        <p>miembro del equipo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-content">
+                                    <img src="imagens/SC_HUAWEI/mau.png" alt="">
+                                    <div class="text-content">
+                                        <h2>maurico</h2>
+                                        <p>miembro del equipo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--<div class="col-md-4 col-sm-6">
+                                <div class="single-content">
+                                    <img src="~/imagens/SC_HUAWEI/sofia.jpg" alt="">
+                                    <div class="text-content">
+                                        <h2>mauricio2</h2>
+                                        <p>QA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-content">
+                                    <img src="~/imagens/SC_HUAWEI/giannina.jpg" alt="">
+                                    <div class="text-content">
+                                        <h2>mauricio3</h2>
+                                        <p>miembro del equipo</p>
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+
+               
+                </div>
+
+            </div>
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+        <!--end of card sobre integrantes huawei -->
+
+
+
+
+
+        
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= SECCION AVANCES ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>AVANCES</h2>
+          <p>En esta seccion de la pagina mostraremos todos los avances que se realizan semana a semana durante el plazo determinado para presentar el proyecto</p>
+
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">Matriz FODA</li>
+            <li class="list-group-item">Configuracion Github</li>
+            <li class="list-group-item">Certificaciones Scrum y Desing Thinking</li>
+            <li class="list-group-item">Informacion sobre Smart Campus</li>
+          </ol>
+            
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section><!-- End Resume Section -->
+
+
+    <!-- ======= SECCION HERRAMIENTAS ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>HERRAMIENTAS</h2>
+          <p>Todos los softaware que utilizamos para realizar este proyecto</p>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
+            <center>
+              <img src="assets/img/github.jpg" alt=""class="img-fluid" alt="">
+              <h4>Gitgub</h4>
+            <p>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#A" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Ver
+              </a>             
+            </p>
+            <div class="collapse" id="A">
+              <div class="card card-body">
+                GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc         </div></center>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
+            <center>
+              <img src="assets/img/azure.png" class="img-fluid" alt="">
+              <h4>Microsoft azure</h4>
+            <p>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#B" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Ver
+              </a>             
+            </p>
+            <div class="collapse" id="B">
+              <div class="card card-body">
+                Microsoft Azure es un servicio de computación en la nube creado por Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos.
+              </div>
+            </div></center>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
+            <center>
+              <img src="assets/img/Huawei-Cloud.png" class="img-fluid" alt=""  >
+              <br><br><br>
+              <br><br><br>
+              <h4>Huawei cloud</h4>
+            <p>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#C" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Ver
+              </a>             
+            </p>
+            <div class="collapse" id="C">
+              <div class="card card-body">
+                HUAWEI CLOUD es un proveedor líder de servicios en la nube, que reúne los más de 30 años de experiencia de Huawei en productos y soluciones de infraestructura de TIC. Estamos comprometidos a brindar servicios en la nube confiables, seguros y rentables para potenciar las aplicaciones, aprovechar el poder de los datos y ayudar a las organizaciones de todos los tamaños a crecer en el mundo inteligente de hoy. HUAWEI CLOUD también se compromete a brindar servicios de inteligencia artificial y nube asequibles, efectivos y confiables a través de la innovación tecnológica.
+            </div>
+            </div></center>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
+            <center>
+              <img src="assets/img/teams.png" class="img-fluid" alt="">
+              <br><br>
+              <h4>Teams</h4>
+            <p>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#D" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Ver
+              </a>             
+            </p>
+            <div class="collapse" id="D">
+              <div class="card card-body">
+                Microsoft Teams es una plataforma unificada de comunicación y colaboración que combina chat persistente en el lugar de trabajo, reuniones de video, almacenamiento de archivos e integración de aplicaciones.  </div></center>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
+            <center>
+              <img src="assets/img/adobe.jpg" class="img-fluid" alt="">
+              <br><br>
+              <h4>Adobe ilustrator</h4>
+            <p>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#D" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Ver
+              </a>             
+            </p>
+            <div class="collapse" id="D">
+              <div class="card card-body">
+                Adobe Illustrator es un editor de gráficos vectoriales en forma de taller de arte que trabaja sobre un tablero de dibujo, conocido como «mesa de trabajo» y está destinado a la creación artística de dibujo y pintura para ilustración, para crear y diseñar imágenes, sirve para editar entre otras cosas  </div></center>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
+            <center>
+              <img src="assets/img/visual.png" class="img-fluid" alt="">
+              <h4>Visual code</h4>
+            <p>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#E" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Ver
+              </a>             
+            </p>
+            <div class="collapse" id="E">
+              <div class="card card-body">
+                Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS. Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código  </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+   
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      
+      <div class="copyright">
+        &copy; Copyright <strong><span>Proyecto final</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
