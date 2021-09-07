@@ -26,8 +26,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/SC_HUAWEI.css"     rel="stylesheet">
-
   <!-- =======================================================
   * Template Name: MyResume - v4.1.0
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
@@ -36,12 +34,41 @@
   ======================================================== -->
 </head>
 <style>
+
+/*NAVBAR GRUPOS--*/
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: #dfd5d5;
+  text-align: center;
+  padding: 18px 19px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  background-color: rgb(228, 104, 104);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #640101;
+  color: white;
+}
+
+/*FIN NAVBAR GRUPOS*/ 
+
         .container .a {
             margin-top: 20px;
-            color: #64AF8B;
+            color: #740101;
         }
         .container .a p {
-            color: #2C492F;
+            color: #640101;
         }
         .single-content {
             position: relative;
@@ -97,10 +124,31 @@
 </style>
 <body>
 
+  <div class="topnav">
+    <a class="active" href="index_BLOCKCHAIN.html">GRUPO BLOCKCHAIN</a>
+    <a href="index_GESTION.html">GRUPO GESTION</a>
+    <a href="index_QA.html">GRUPO QA</a>
+    <a href="index_QUANTUM_COMPUTING.html">GRUPO QUANTUM COMPUTING</a>
+    <a href="index_SC_AWS.html">GRUPO AWS</a>
+    <a href="index_SC_AZURE.html">GRUPO AZURE</a>
+    <a href="index_SC_GOOGLE.html">GRUPO GOOGLE</a>
+    <a href="index_SC_IBM.html">GRUPO IBM</a>
+    <a href="index_SC_HUAWEI.html">GRUPO HUAWEI</a>
+    <a  class="active" href="index_SCA_ANCHOR.html">GRUPOANCHOR</a>
+  
+  </div>
+  
+  
+
+
+
+
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
   <!-- ======= Header ======= -->
+
+
   <header id="header" class="d-flex flex-column justify-content-center">
 
     <nav id="navbar" class="navbar nav-menu">
@@ -118,111 +166,7 @@
   </header><!-- End Header -->
 
 
-  <!-- incio botones de gestor-->
-
-  <div class="col-2">
-    <div class="navigation">
-        <ul>
-            <li class="list">
-                <a href="index.html">
-                <span class="icon">
-                <!--  <ion-icon name="home-outline"></ion-icon> -->  
-                    <ion-icon name="person-circle-outline"></ion-icon>
-                </span>
-                    <span class="title">Principal</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="index_SC_AWS.html">
-                <span class="icon">
-                <!--  <ion-icon name="home-outline"></ion-icon> -->  
-                    <ion-icon name="people-circle-outline"></ion-icon>
-                </span>
-                    <span class="title">Grupo SC AWS</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="index_SC_AZURE.html">
-                <span class="icon">
-                    <!-- <ion-icon name="person-outline"></ion-icon>-->  
-                    <ion-icon name="people-circle-outline"></ion-icon>
-                </span>
-                    <span class="title">Grupo SC AZURE</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="index_SC_GOOGLE.html">
-                <span class="icon">
-                <!--  <ion-icon name="mail-unread-outline"></ion-icon>-->  
-                    <ion-icon name="people-circle-outline"></ion-icon>
-                </span>
-                    <span class="title">Grupo SC GOOGLE</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="index_SC_HUAWEI.html">
-                <span class="icon">
-                <!--  <ion-icon name="settings-outline"></ion-icon>-->  
-                    <ion-icon name="people-circle-outline"></ion-icon>      
-                </span>
-                    <span class="title">Grupo SC HUAWEI</span>
-                </a>
-            </li>
-            <li class="list active">
-                <a href="index_SC_IBM.html">
-                <span class="icon">
-                    <!--  <ion-icon name="settings-outline"></ion-icon>-->  
-                    <ion-icon name="people-circle-outline"></ion-icon>   
-                </span>
-                    <span class="title">Grupo SC IBM</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="index_SCA_ANCHOR.html">
-                <span class="icon">
-                <ion-icon name="people-circle-outline"></ion-icon>
-                </span>
-                    <span class="title">Grupo SCA ANCHOR</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="index_BLOCKCHAIN.html">
-                <span class="icon">
-                <ion-icon name="people-circle-outline"></ion-icon>
-                </span>
-                    <span class="title">Grupo BLOCKCHAIN</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="index_QUANTUM_COMPUTING.html">
-                <span class="icon">
-                <ion-icon name="people-circle-outline"></ion-icon>
-                </span>
-                    <span class="title">Grupo QUANTUM COMPUTING</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="index_QA.html">
-                <span class="icon">
-                <ion-icon name="people-outline"></ion-icon>
-                </span>
-                    <span class="title">Grupo QA</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="index_GESTION.html">
-                <span class="icon">
-                <ion-icon name="people-outline"></ion-icon>
-                </span>
-                    <span class="title">Grupo GESTIÓN</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-
-  <!--fin botones de gestor-->
-
+ 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
