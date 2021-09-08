@@ -48,7 +48,7 @@
   text-align: center;
   padding: 18px 19px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .topnav a:hover {
@@ -84,7 +84,7 @@
         .single-content:after {
             content: '';
             display: block;
-            background: rgb(169, 86, 86);
+            background: rgb(199, 138, 138);
             top: 20px;
             bottom: 20px;
             opacity: 0;
@@ -92,12 +92,12 @@
             transition: .4s;
         }
         .single-content:hover:after {
-            opacity: .9;
+            opacity: .7;
             transform: rotate3d(0, 0, 0, 0deg);
         }
         .single-content img {
-            width: 100%;
-            height: 250px;
+          max-width: 100%;
+          height: 350px;
         }
         .text-content {
             top: 45%;
@@ -117,6 +117,32 @@
             transition-delay: .3s;
         }
 
+
+         /*section-1*/
+        .section-1{
+            margin-top:3%;
+        }
+        .section-1 .row .col-md-7, .text-center{
+            margin-top:10%;
+            margin-bottom: 10%;
+        }
+        .section-1 .parrafo-1{
+            color: black;
+            margin-top: 7%;
+        }
+        .col-md-7 img{
+            height:480px;
+        }
+        .col-md-5 h1{
+            color:#64AF8B ;
+        }
+        .col-md-5 .parrafo-1{
+            font-weight: bolder;
+            font-size: 0.9em;
+            color: #2C492F;
+        }
+        /*final*/
+
 </style>
 <body>
 
@@ -131,7 +157,7 @@
     <a href="index_SC_GOOGLE.html">GRUPO GOOGLE</a>
     <a href="index_SC_IBM.html">GRUPO IBM</a>
     <a href="index_SC_HUAWEI.html">GRUPO HUAWEI</a>
-    <a  class="active" href="index_SCA_ANCHOR.html">GRUPOANCHOR</a>
+    <a  class="active" href="index_SCA_ANCHOR.html">GRUPO ANCHOR</a>
   </div>
   
   
@@ -211,17 +237,31 @@
             </div>
             <div class="section-title">
               <h2>Descripcion del proyecto</h2>
-              <p class="fst-italic">
-                Nuestro proyecto se trata de crear una plataforma web responsiva con la integración de un Bot de Azure Bot Servicies, el cual ayudara a los alumnos y personal administrativo de la USMP -FIA en tramites e información guiada para presentar en las áreas
-                de Registros Académicos y Tesorería, los tramites a completar por parte del Bot o guías brindadas se almacenaran en una base de datos (dentro de Huawei Cloud), donde también existirá una VPC para comunicación con el App Servicies de
-                Azure, que soportara al Bot y se utilizara la conectividad con las funciones para respuesta concreta o envió de solicitud/captura de información. Dando de esta manera a los usuarios conectados mediante una IoT (Tablet con cámara web).
-                La eficiencia requerida en este tipo de tramites, ya que actualmente son demorados por intermedio de correos electrónicos y no se tiene un soporte para ser completados. Pensando en el entorno Presencial, se implementara un modulo donde
-                los propios estudiantes mediante reconocimiento facial podrán acceder a consultas y tramites de manera autónoma y rápida, acelerando el proceso de manera intuitiva gracias al Diseño UX que se implementara Lista de servicios • Azure
-                bot service • funciones • Huawei Cloud Herramientas • Git • Azure Devops • Visual Code • PostgreSQL
-              </p>
+
+              <div class="section-1" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imagens/SC_HUAWEI/portada.jpg" alt="" width="100%" height="100%" alt="">
+                        </div>
+                        <div class="col-md-7 text-center">
+                            <h1>Smart Campus Huawei</h1>
+                            <p class="parrafo-1"> Nuestro proyecto se trata de crear una plataforma web responsiva con la integración de un Bot de Azure Bot Servicies, el cual ayudara a los alumnos y personal administrativo de la USMP -FIA en tramites e información guiada para presentar en las áreas
+                              de Registros Académicos y Tesorería, los tramites a completar por parte del Bot o guías brindadas se almacenaran en una base de datos (dentro de Huawei Cloud), donde también existirá una VPC para comunicación con el App Servicies de
+                              Azure, que soportara al Bot y se utilizara la conectividad con las funciones para respuesta concreta o envió de solicitud/captura de información. Dando de esta manera a los usuarios conectados mediante una IoT (Tablet con cámara web).</p>
+                            <p class="parrafo-1">La eficiencia requerida en este tipo de tramites, ya que actualmente son demorados por intermedio de correos electrónicos y no se tiene un soporte para ser completados. Pensando en el entorno Presencial, se implementara un modulo donde
+                              los propios estudiantes mediante reconocimiento facial podrán acceder a consultas y tramites de manera autónoma y rápida, acelerando el proceso de manera intuitiva gracias al Diseño UX que se implementara Lista de servicios • Azure
+                              bot service • funciones • Huawei Cloud Herramientas • Git • Azure Devops • Visual Code • PostgreSQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             
             </div>
           </div>
-
+<br> <br>
         <div class="section-title">
           <h2>Informacion de integrantes</h2>
           <p>
@@ -242,27 +282,27 @@
                             <div class="col-md-4 col-sm-6">
                             
                                 <div class="single-content">
-                                    <img src="imagens/SC_HUAWEI/jesus.jpeg"  alt="" width="50" height="60">
-                                    <div class="text-content">
-                                        <h3 class="fst-italic">Jesus Baños</h2>
-                                        <p class="fst-italic">Programador</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="single-content">
-                                    <img src="imagens/SC_HUAWEI/Jose.jpeg" width="100" height="100"alt="">
+                                    <img src="imagens/SC_HUAWEI/Jose.jpeg"  alt=""  >
                                     <div class="text-content">
                                         <h3 class="fst-italic">Jose Oquendo</h2>
-                                       <p class="fst-italic">Lider del equipo</p>
+                                        <p class="fst-italic">Lider del grupo</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-content">
-                                    <img src="imagens/SC_HUAWEI/Bryan.jpg" alt="">
+                                    <img src="imagens/SC_HUAWEI/Bryan.jpg" >
                                     <div class="text-content">
-                                        <h3 class="fst-italic">Bryan Ojeda</h2>
+                                        <h3 class="fst-italic">Bryan ojeda</h2>
+                                       <p class="fst-italic">programador</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-content">
+                                    <img src="imagens/SC_HUAWEI/gianina.jpeg" alt="">
+                                    <div class="text-content">
+                                        <h3 class="fst-italic">Giannina caycho</h2>
                                         <p class="fst-italic">Programador</p>
                                     </div>
                                 </div>
@@ -286,15 +326,15 @@
                                     <img src="imagens/SC_HUAWEI/sofi2.jpeg" alt="">
                                     <div class="text-content">
                                         <h3 class="fst-italic">Sofia Ruiz</h2>
-                                        <p class="fst-italic">QA</p>
+                                        <p class="fst-italic">Quality Assurance</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-content">
-                                    <img src="imagens/SC_HUAWEI/gianina.jpeg" alt="">
+                                    <img src="imagens/SC_HUAWEI/jesus.jpeg" alt="">
                                     <div class="text-content">
-                                        <h3 class="fst-italic">Giannina Caycho</h2>
+                                        <h3 class="fst-italic">Jesus Baños</h2>
                                         <p class="fst-italic">Programador</p>
                                     </div>
                                 </div>
@@ -302,36 +342,9 @@
                         </div>
                     </div>
 
-
-                    <div class="carousel-item ">
-                        <div class="row">
-                            
-                            <!--<div class="col-md-4 col-sm-6">
-                                <div class="single-content">
-                                    <img src="~/imagens/SC_HUAWEI/sofia.jpg" alt="">
-                                    <div class="text-content">
-                                        <h2>mauricio2</h2>
-                                        <p>QA</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="single-content">
-                                    <img src="~/imagens/SC_HUAWEI/giannina.jpg" alt="">
-                                    <div class="text-content">
-                                        <h2>mauricio3</h2>
-                                        <p>miembro del equipo</p>
-                                    </div>
-                                </div>
-                            </div>-->
-                        </div>
-                    </div>
-
-               
                 </div>
 
             </div>
-
 
 
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -348,11 +361,6 @@
     </div>
 
         <!--end of card sobre integrantes huawei -->
-
-
-
-
-
         
       </div>
     </section><!-- End About Section -->
@@ -373,12 +381,29 @@
                 <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Certificados obtenidos</a>
                 <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Wiki</a>
                 <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Repositorio del Proyecto</a>
-               <!--- <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>-->
+              
+              
+                <!--- <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>-->
               </div>
             </div>
             <div class="col-8">
               <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active " id="list-home" role="tabpanel" aria-labelledby="list-home-list"><p class="fst-italic">En esta seccion podremos observar los certificados de cada miembro del equipo. <a href="https://dev.azure.com/joseoquendo/SC_HUAWEI/_wiki/wikis/SC_HUAWEI.wiki/21/Certificaci%C3%B3n-para-Design-Thinking-de-IBM">"Design thinking</a><a href="https://dev.azure.com/joseoquendo/SC_HUAWEI/_wiki/wikis/SC_HUAWEI.wiki/27/certificado-de-co-creator-IBM">, Desing Thinking Co-Creator Course"</a></p></div>
+                <div class="tab-pane fade show active " id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                  <p class="fst-italic">
+                  En esta seccion podremos observar los certificados de IBM de cada miembro del equipo. 
+                  <a href="https://dev.azure.com/joseoquendo/SC_HUAWEI/_wiki/wikis/SC_HUAWEI.wiki/21/Certificaci%C3%B3n-para-Design-Thinking-de-IBM">"Design thinking</a>
+                  <a href="https://dev.azure.com/joseoquendo/SC_HUAWEI/_wiki/wikis/SC_HUAWEI.wiki/27/certificado-de-co-creator-IBM">, Desing Thinking Co-Creator Course"
+                  </a>
+
+                </p>
+                <br>  
+                <p class="fst-italic">
+                  En esta seccion podremos observar los certificados de Scrum Fundamentals Certified de cada miembro del equipo.
+                  <a href="https://dev.azure.com/joseoquendo/SC_HUAWEI/_wiki/wikis/SC_HUAWEI.wiki/45/Certificados-Scrum-Fundamentals">Vease aqui</a>
+                 
+
+                </p>
+              </div>
                 <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"><p class="fst-italic">En nuestra wiki podremos observar cada avance que se hizo durante la creacion del proyecto <a href="https://dev.azure.com/joseoquendo/SC_HUAWEI/_wiki/wikis/SC_HUAWEI.wiki/1/SMART-WEB">"Vease AQUI"</a></p></div>
                 <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"><p class="fst-italic">Aqui podremos encontrar el link de nuestro repositorio de el proyecto Smart Campus en AzureDevOps <a href="https://dev.azure.com/joseoquendo/SC_HUAWEI/_git/pagina-de-avances.git">"Repositorio"</a></p></div>
                <!---- <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>-->
@@ -409,7 +434,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
             <center>
-              <img src="assets/img/github.jpg" alt=""class="img-fluid" alt="">
+              <img src="assets/img/github.jpg" alt=""class="img-fluid" style="max-width:80%;" alt="">
               <h4>Gitgub</h4>
             <p>
               <a class="btn btn-primary" data-bs-toggle="collapse" href="#A" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -423,7 +448,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
             <center>
-              <img src="assets/img/azure.png" class="img-fluid" alt="">
+              <img src="assets/img/azure.png" class="img-fluid"  alt="">
               <h4>Microsoft azure</h4>
             <p>
               <a class="btn btn-primary" data-bs-toggle="collapse" href="#B" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -439,8 +464,8 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
             <center>
-              <img src="assets/img/Huawei-Cloud.png" class="img-fluid" alt=""  >
-              <br><br><br>
+              <img src="assets/img/Huawei-Cloud.png" class="img-fluid" style="max-width:80%;" alt=""   
+              
               <br><br><br>
               <h4>Huawei cloud</h4>
             <p>
@@ -457,8 +482,8 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
             <center>
-              <img src="assets/img/teams.png" class="img-fluid" alt="">
-              <br><br>
+              <img src="assets/img/teams.png" class="img-fluid" style="max-width:80%;" alt="">
+              <br> 
               <h4>Teams</h4>
             <p>
               <a class="btn btn-primary" data-bs-toggle="collapse" href="#D" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -472,7 +497,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
             <center>
-              <img src="assets/img/adobe.jpg" class="img-fluid" alt="">
+              <img src="assets/img/adobe.jpg" class="img-fluid" style="max-width:80%;" alt="">
               <br><br>
               <h4>Adobe ilustrator</h4>
             <p>
@@ -487,7 +512,7 @@
         
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">            
             <center>
-              <img src="assets/img/visual.png" class="img-fluid" alt="">
+              <img src="assets/img/visual.png" class="img-fluid"  alt="">
               <h4>Visual code</h4>
             <p>
               <a class="btn btn-primary" data-bs-toggle="collapse" href="#E" role="button" aria-expanded="false" aria-controls="collapseExample">
